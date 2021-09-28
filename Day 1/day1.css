@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.block{
+    height: auto;
+    padding: 1%;
+    background-color: crimson;
+}
+.child{
+    
+    height: 250px;
+    width: 19.5%;
+    display: inline-block;
+    background-color: pink;
+}
+
+@media (max-width:480px){
+    .child{
+        width: 100%;
+    }
+}
